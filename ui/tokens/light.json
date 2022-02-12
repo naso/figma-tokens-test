@@ -1,24 +1,12 @@
 {
   "light": {
-    "Black": {
+    "Primary": {
       "1": {
-        "value": "#000000",
-        "type": "color"
-      }
-    },
-    "Gray": {
-      "1": {
-        "value": "#aaaaaa",
+        "value": "#20c11a",
         "type": "color"
       },
       "2": {
-        "value": "#c5c5c5",
-        "type": "color"
-      }
-    },
-    "Green": {
-      "1": {
-        "value": "#20c11a",
+        "value": "#250587",
         "type": "color"
       }
     }
