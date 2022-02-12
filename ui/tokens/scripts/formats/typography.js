@@ -7,8 +7,14 @@ const cssProps = {
   fontFamily: "font-family",
   fontWeight: "font-weight",
   fontSize: "font-size",
-  letterSpacing: "letter-spacing",
+  //   letterSpacing: "letter-spacing",
   lineHeight: "line-height",
+};
+
+const weights = {
+  Regular: "400",
+  SemiBold: "600",
+  Bold: "700",
 };
 
 const mapTokenToValue = (token, tokens) => {
@@ -34,6 +40,14 @@ const mapTokenToValue = (token, tokens) => {
           } else {
             result = parseInt(result, 10) / 100;
           }
+        }
+
+        if (prop === "fontSize") {
+          result = parseInt(result, 10) + "px";
+        }
+
+        if (prop === "fontWeight") {
+          result = weights[result];
         }
 
         parsed.value[cssProps[prop]] = result;

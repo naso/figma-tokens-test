@@ -1,21 +1,18 @@
 .global-header-1 {
   font-family: Work Sans;
-  font-weight: Bold;
+  font-weight: 700;
   line-height: normal;
-  font-size: 34;
-  letter-spacing: 0%;
+  font-size: 34px;
 }
 .global-header-2 {
   font-family: Work Sans;
-  font-weight: SemiBold;
+  font-weight: 600;
   line-height: normal;
-  font-size: 22;
-  letter-spacing: 0%;
+  font-size: 22px;
 }
 .global-body {
   font-family: Work Sans;
-  font-weight: Regular;
+  font-weight: 400;
   line-height: 1.4;
-  font-size: 16;
-  letter-spacing: 0%;
+  font-size: 16px;
 }
