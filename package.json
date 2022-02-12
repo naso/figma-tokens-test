@@ -1,0 +1,15 @@
+{
+  "name": "figma-tokens-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:naso/figma-tokens-test.git",
+  "author": "Fabio Azevedo <me@icantcontrolmyego.net>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ui/tokens/scripts/generate.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "style-dictionary": "^3.1.1"
+  }
+}

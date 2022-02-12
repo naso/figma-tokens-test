@@ -14,10 +14,10 @@ jobs:
         with:
           node-version: "14"
       # Transform Figma Tokens JSON to something Style Dictionary can read
-      - run: npx token-transformer data/figma/tokens/tokens.json data/figma/tokens/tokens-transformed.json
+      - run: npx token-transformer ui/tokens/input/global.json ui/tokens/output/global.json
       # Convert tokens according to Style Dictionary config
-      - run: npx style-dictionary build --config data/figma/config.json
+      - run: node build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "feat(design-tokens): transform tokens"
+          commit_message: "feat(design-tokens): auto generated token styles"

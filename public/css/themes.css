@@ -1,0 +1,17 @@
+:root {
+  --background-1: #fff;
+
+  --text-color-1: var(--global-black-1);
+
+  --primary-1: var(--global-light-primary-1);
+  --primary-2: var(--global-light-primary-2);
+}
+
+.dark {
+  --background-1: var(--global-black-1);
+
+  --text-color-1: #fff;
+
+  --primary-1: var(--global-dark-primary-2);
+  --primary-2: var(--global-dark-primary-1);
+}

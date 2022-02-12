@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma Tokens Test</title>
 
+    <link rel="stylesheet" href="css/tokens/variables.css" type="text/css">
+    <link rel="stylesheet" href="css/tokens/typography.css" type="text/css">
+    <link rel="stylesheet" href="css/themes.css" type="text/css">
     <link rel="stylesheet" href="css/reset.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
@@ -28,7 +31,26 @@
                 cursus
                 leo nec varius. Donec malesuada augue a diam ornare, eget tempus libero efficitur.</p>
         </article>
+
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
     </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const checkbox = document.querySelector('input[type=checkbox]');
+
+            checkbox.addEventListener('change', function () {
+                if (checkbox.checked) {
+                    document.body.classList.add('dark');
+                } else {
+                    document.body.classList.remove('dark');
+                }
+            });
+        })
+    </script>
 </body>
 
 </html>

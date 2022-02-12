@@ -1,0 +1,21 @@
+.global-header-1 {
+  font-family: Work Sans;
+  font-weight: Bold;
+  line-height: normal;
+  font-size: 34;
+  letter-spacing: 0%;
+}
+.global-header-2 {
+  font-family: Work Sans;
+  font-weight: SemiBold;
+  line-height: normal;
+  font-size: 22;
+  letter-spacing: 0%;
+}
+.global-body {
+  font-family: Work Sans;
+  font-weight: Regular;
+  line-height: 1.4;
+  font-size: 16;
+  letter-spacing: 0%;
+}
