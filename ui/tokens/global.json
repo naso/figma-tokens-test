@@ -123,70 +123,28 @@
         "type": "color"
       }
     },
-    "Primary": {
-      "1": {
-        "value": "#98fb98",
-        "type": "color"
-      },
-      "2": {
-        "value": "#206bdb",
-        "type": "color"
-      }
-    }
-  },
-  "light": {
-    "Black": {
-      "1": {
-        "value": "#000000",
-        "type": "color"
+    "Light": {
+      "Primary": {
+        "1": {
+          "value": "#98fb98",
+          "type": "color"
+        },
+        "2": {
+          "value": "#206bdb",
+          "type": "color"
+        }
       }
     },
-    "Gray": {
-      "1": {
-        "value": "#aaaaaa",
-        "type": "color"
-      },
-      "2": {
-        "value": "#c5c5c5",
-        "type": "color"
-      }
-    },
-    "Primary": {
-      "1": {
-        "value": "#98fb98",
-        "type": "color"
-      },
-      "2": {
-        "value": "#206bdb",
-        "type": "color"
-      }
-    }
-  },
-  "dark": {
-    "Black": {
-      "1": {
-        "value": "#000000",
-        "type": "color"
-      }
-    },
-    "Gray": {
-      "1": {
-        "value": "#aaaaaa",
-        "type": "color"
-      },
-      "2": {
-        "value": "#c5c5c5",
-        "type": "color"
-      }
-    },
-    "Primary": {
-      "1": {
-        "value": "#98b3fa",
-        "type": "color"
-      },
-      "2": {
-        "value": "#dbc921",
-        "type": "color"
+    "Dark": {
+      "Primary": {
+        "1": {
+          "value": "#5fb25f",
+          "type": "color"
+        },
+        "2": {
+          "value": "#276196",
+          "type": "color"
+        }
       }
     }
   }
