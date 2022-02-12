@@ -1,0 +1,111 @@
+{
+  "global": {
+    "fontFamilies": {
+      "work-sans": {
+        "value": "Work Sans",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeights": {
+      "0": {
+        "value": "AUTO",
+        "type": "lineHeights"
+      },
+      "1": {
+        "value": "140%",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeights": {
+      "work-sans-0": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "work-sans-1": {
+        "value": "SemiBold",
+        "type": "fontWeights"
+      },
+      "work-sans-2": {
+        "value": "Regular",
+        "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "22",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "34",
+        "type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "value": "0%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "Header 1": {
+      "value": {
+        "fontFamily": "$fontFamilies.work-sans",
+        "fontWeight": "$fontWeights.work-sans-0",
+        "lineHeight": "$lineHeights.0",
+        "fontSize": "$fontSize.2",
+        "letterSpacing": "$letterSpacing.0",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography"
+    },
+    "Header 2": {
+      "value": {
+        "fontFamily": "$fontFamilies.work-sans",
+        "fontWeight": "$fontWeights.work-sans-1",
+        "lineHeight": "$lineHeights.0",
+        "fontSize": "$fontSize.1",
+        "letterSpacing": "$letterSpacing.0",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography"
+    },
+    "Body": {
+      "value": {
+        "fontFamily": "$fontFamilies.work-sans",
+        "fontWeight": "$fontWeights.work-sans-2",
+        "lineHeight": "$lineHeights.1",
+        "fontSize": "$fontSize.0",
+        "letterSpacing": "$letterSpacing.0",
+        "paragraphSpacing": "$paragraphSpacing.0",
+        "textCase": "$textCase.none",
+        "textDecoration": "$textDecoration.none"
+      },
+      "type": "typography"
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    }
+  }
+}
