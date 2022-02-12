@@ -125,11 +125,11 @@
     },
     "Primary": {
       "1": {
-        "value": "#ff5c00",
+        "value": "#98fb98",
         "type": "color"
       },
       "2": {
-        "value": "#055887",
+        "value": "#206bdb",
         "type": "color"
       }
     }
