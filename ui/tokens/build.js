@@ -1,6 +1,6 @@
 const StyleDictionaryPackage = require("style-dictionary");
 
-const { getStyleDictionaryConfig } = require("./config");
+const { getStyleDictionaryConfig } = require("./scripts/config");
 
 console.log("Build started...");
 

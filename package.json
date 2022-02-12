@@ -6,7 +6,7 @@
   "author": "Fabio Azevedo <me@icantcontrolmyego.net>",
   "license": "MIT",
   "scripts": {
-    "start": "node ui/tokens/scripts/generate.js"
+    "start": "node ui/tokens/build.js"
   },
   "dependencies": {
     "lodash": "^4.17.21",
