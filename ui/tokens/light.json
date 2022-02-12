@@ -1,1 +1,26 @@
-{}
+{
+  "light": {
+    "Black": {
+      "1": {
+        "value": "#000000",
+        "type": "color"
+      }
+    },
+    "Gray": {
+      "1": {
+        "value": "#aaaaaa",
+        "type": "color"
+      },
+      "2": {
+        "value": "#c5c5c5",
+        "type": "color"
+      }
+    },
+    "Green": {
+      "1": {
+        "value": "#20c11a",
+        "type": "color"
+      }
+    }
+  }
+}
