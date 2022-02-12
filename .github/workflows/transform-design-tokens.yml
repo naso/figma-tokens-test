@@ -13,6 +13,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
+      # Install dependencies
+      - run: npm install
       # Transform Figma Tokens JSON to something Style Dictionary can read
       - run: npx token-transformer ui/tokens/input/global.json ui/tokens/output/global.json
       # Convert tokens according to Style Dictionary config
