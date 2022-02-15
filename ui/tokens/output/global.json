@@ -17,7 +17,7 @@
   },
   "fontWeights": {
     "work-sans-0": {
-      "value": "Bold",
+      "value": "Regular",
       "type": "fontWeights"
     },
     "work-sans-1": {
@@ -39,7 +39,7 @@
       "type": "fontSizes"
     },
     "2": {
-      "value": 34,
+      "value": 42,
       "type": "fontSizes"
     }
   },
@@ -58,9 +58,9 @@
   "Header 1": {
     "value": {
       "fontFamily": "Work Sans",
-      "fontWeight": "Bold",
+      "fontWeight": "Regular",
       "lineHeight": "AUTO",
-      "fontSize": 34,
+      "fontSize": 42,
       "letterSpacing": "0%",
       "paragraphSpacing": 0,
       "textCase": "none",
