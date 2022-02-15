@@ -12,6 +12,6 @@
 
   --text-color-1: #fff;
 
-  --primary-1: var(--global-dark-primary-2);
-  --primary-2: var(--global-dark-primary-1);
+  --primary-1: var(--global-dark-primary-1);
+  --primary-2: var(--global-dark-primary-2);
 }
