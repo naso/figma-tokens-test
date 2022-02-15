@@ -18,7 +18,7 @@
     },
     "fontWeights": {
       "work-sans-0": {
-        "value": "Regular",
+        "value": "Bold",
         "type": "fontWeights"
       },
       "work-sans-1": {
@@ -85,7 +85,7 @@
     "Body": {
       "value": {
         "fontFamily": "$fontFamilies.work-sans",
-        "fontWeight": "$fontWeights.work-sans-0",
+        "fontWeight": "$fontWeights.work-sans-2",
         "lineHeight": "$lineHeights.1",
         "fontSize": "$fontSize.0",
         "letterSpacing": "$letterSpacing.0",
@@ -138,7 +138,7 @@
     "Dark": {
       "Primary": {
         "1": {
-          "value": "#df8113",
+          "value": "#ff238d",
           "type": "color"
         },
         "2": {
