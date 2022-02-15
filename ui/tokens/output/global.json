@@ -17,7 +17,7 @@
   },
   "fontWeights": {
     "work-sans-0": {
-      "value": "Bold",
+      "value": "Regular",
       "type": "fontWeights"
     },
     "work-sans-1": {
@@ -58,7 +58,7 @@
   "Header 1": {
     "value": {
       "fontFamily": "Work Sans",
-      "fontWeight": "Bold",
+      "fontWeight": "Regular",
       "lineHeight": "AUTO",
       "fontSize": 42,
       "letterSpacing": "0%",
@@ -137,7 +137,7 @@
   "Dark": {
     "Primary": {
       "1": {
-        "value": "#ff238d",
+        "value": "#ff5823",
         "type": "color"
       },
       "2": {
