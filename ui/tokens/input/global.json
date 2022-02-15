@@ -18,7 +18,7 @@
     },
     "fontWeights": {
       "work-sans-0": {
-        "value": "Bold",
+        "value": "Regular",
         "type": "fontWeights"
       },
       "work-sans-1": {
@@ -40,7 +40,7 @@
         "type": "fontSizes"
       },
       "2": {
-        "value": "34",
+        "value": "42",
         "type": "fontSizes"
       }
     },
@@ -85,7 +85,7 @@
     "Body": {
       "value": {
         "fontFamily": "$fontFamilies.work-sans",
-        "fontWeight": "$fontWeights.work-sans-2",
+        "fontWeight": "$fontWeights.work-sans-0",
         "lineHeight": "$lineHeights.1",
         "fontSize": "$fontSize.0",
         "letterSpacing": "$letterSpacing.0",
